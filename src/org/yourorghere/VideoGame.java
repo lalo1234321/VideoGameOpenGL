@@ -16,7 +16,7 @@ import javax.media.opengl.glu.GLU;
 public class VideoGame implements GLEventListener {
 
     public static void main(String[] args) {
-        Frame frame = new Frame("Simple JOGL Application");
+        Frame frame = new Frame("VideoGame");
         GLCanvas canvas = new GLCanvas();
 
         canvas.addGLEventListener(new VideoGame());
